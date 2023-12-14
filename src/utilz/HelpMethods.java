@@ -16,5 +16,6 @@ public class HelpMethods {
 		float yIndex = y / Game.TILES_SIZE;
 		int value = lvlData[(int) xIndex][(int) yIndex];
 		if(value >= 48 || value < 0)
+			
 	}
 }
